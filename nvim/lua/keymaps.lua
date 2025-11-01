@@ -1,0 +1,8 @@
+vim.keymap.set("n", "<C-a>", "ggVG", { desc = "Select all" })
+vim.keymap.set("v", "<C-c>", '"+y', { desc = "Copy" })
+vim.keymap.set("n", "<C-v>", '"+p', { desc = "Paste" })
+vim.keymap.set("n", "<leader>t", ":belowright 15split | terminal<CR>", { desc = "Open terminal below" })
+vim.keymap.set("n", "<leader>r", function()
+  vim.cmd("botright vsplit | terminal")
+  vim.cmd("startinsert")
+end, { desc = "Open terminal on the right" })
