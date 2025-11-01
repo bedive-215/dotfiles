@@ -8,7 +8,6 @@ The Neovim setup is inspired by [Mon4sm/monasm-dots](https://github.com/Mon4sm/m
 ## Structure
 
 ```
-.
 
 nvim/               # Neovim configuration
 ├── init.lua
@@ -17,9 +16,8 @@ nvim/               # Neovim configuration
 fastfetch/          # Fastfetch config (system info on terminal start)
 └── config.jsonc
 README.md
-```
 
----
+```
 
 ## Requirements
 
