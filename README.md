@@ -1,11 +1,11 @@
-# 🧩 Dotfiles – My Personal Configuration
+# Dotfiles – My Personal Configuration
 
 This repository contains my personal **dotfiles**, including configuration for **Neovim** and **Fastfetch**.
 The Neovim setup is inspired by [Mon4sm/monasm-dots](https://github.com/Mon4sm/monasm-dots/tree/main/.config/nvim), with custom tweaks to match my workflow and preferences.
 
 ---
 
-## 📂 Structure
+## Structure
 
 ```
 .
@@ -21,7 +21,7 @@ README.md
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 * **Neovim ≥ 0.9**
 * **Git**
@@ -32,12 +32,12 @@ README.md
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone this repo to your local machine:
 
 ```bash
-git clone https://github.com/<your-username>/dotfile.git ~/dotfiles
+git clone https://github.com/bedive-215/dotfile.git ~/dotfiles
 ```
 
 Then link the configurations:
@@ -56,9 +56,9 @@ stow .config
 
 ---
 
-## 🧠 Highlights
+## Highlights
 
-### 🪄 Neovim
+### Neovim
 
 * Plugin manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 * Language Server Protocol (LSP) integration
@@ -66,7 +66,7 @@ stow .config
 * Telescope for fuzzy finding
 * Custom keymaps and lightweight UI
 
-### ⚡ Fastfetch
+### Fastfetch
 
 * Displays system info (CPU, RAM, OS, GPU, etc.) when opening a terminal
 * Configured for a clean and minimal look
@@ -74,13 +74,13 @@ stow .config
 
 ---
 
-## 🖼️ Preview
+## Preview
 
-*(Optional: Screenshots of Neovim and Fastfetch outputs here)*
+![Fastfetch Output](./Fastfetch.png)
 
 ---
 
-## 🧑‍💻 Credits
+## Credits
 
 * Neovim structure inspired by [Mon4sm/monasm-dots](https://github.com/Mon4sm/monasm-dots)
 * Fastfetch: [https://github.com/fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
