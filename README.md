@@ -85,6 +85,6 @@ stow .config
 
 ---
 
-## 🪪 License
+## License
 
 Free to learn, copy, and modify for personal use.
