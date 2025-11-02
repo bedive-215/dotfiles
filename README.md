@@ -9,13 +9,15 @@ The Neovim setup is inspired by [Mon4sm/monasm-dots](https://github.com/Mon4sm/m
 
 ```
 
-nvim/               # Neovim configuration
-├── init.lua
-├── lazy-lock.json
-└── lua/
-fastfetch/          # Fastfetch config (system info on terminal start)
-└── config.jsonc
-README.md
+~/dotfiles/
+├── nvim/
+│   ├── init.lua
+│   ├── lua/
+│   └── lazy-lock.json
+└── fastfetch/
+│   └── lazy-lock.json
+│   └── linux.txt
+└── README.md
 
 ```
 
@@ -41,15 +43,15 @@ git clone https://github.com/bedive-215/dotfile.git ~/dotfiles
 Then link the configurations:
 
 ```bash
-ln -s ~/dotfiles/.config/nvim ~/.config/nvim
-ln -s ~/dotfiles/.config/fastfetch ~/.config/fastfetch
+ln -s ~/dotfiles/nvim ~/.config/nvim
+ln -s ~/dotfiles/fastfetch ~/.config/fastfetch
 ```
 
 Or use GNU Stow if you prefer:
 
 ```bash
 cd ~/dotfiles
-stow .config
+stow .
 ```
 
 ---
